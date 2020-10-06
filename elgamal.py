@@ -1,5 +1,6 @@
 #Implementation of the ElGamal Cryptosystem
 #Author: Ryan Riddle (ryan.riddle@uky.edu)
+#
 #Date of Completion: April 20, 2012
 
 #DESCRIPTION AND IMPLEMENTATION
