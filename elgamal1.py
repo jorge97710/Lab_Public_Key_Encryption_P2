@@ -46,10 +46,10 @@ def my_function_cipher(v, list_message):
 
 
 def my_function_decipher(v, list_message_cipher):
-    decipher_nums = []
-    for i in range(len(list_message_cipher)): 
-      decipher_nums.append(int(list_message_cipher[i]/v))
-    return decipher_nums
+  decipher_nums = []
+  for i in range(len(list_message_cipher)): 
+    decipher_nums.append(int(list_message_cipher[i]/v))
+  return decipher_nums
 
 def encrypt(message, q, h, g):
   b = gen_key(q)
